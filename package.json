@@ -1,6 +1,6 @@
 {
-	"name": "@jjuanrivvera99/n8n-nodes-discord",
-	"version": "0.5.3",
+	"name": "@tonilab/n8n-nodes-discord",
+	"version": "0.5.9",
 	"description": "nodes to trigger workflows from Discord or send interactive messages. Uses the components API which allows to create dialogs (e.g. attach buttons and wait for the user to click on them)",
 	"keywords": [
 		"n8n",
@@ -11,19 +11,20 @@
 		"n8n-community-node-package"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/jjuanrivvera99/n8n-nodes-discord",
+	"homepage": "https://github.com/antonio-abrantes/n8n-nodes-discord",
 	"author": {
-		"name": "jjuanrivvera99",
-		"url": "https://jjuanrivvera99.com"
+		"name": "antonio-abrantes",
+		"url": "https://antonio-abrantes.tonilab.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jjuanrivvera99/n8n-nodes-discord.git"
+		"url": "git+https://github.com/antonio-abrantes/n8n-nodes-discord.git"
 	},
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc && gulp",
 		"dev": "tsc --watch",
+		"test": "echo \"No test specified\"",
 		"format": "prettier nodes credentials --write",
 		"lint": "tslint -p tsconfig.json -c tslint.json && eslint nodes credentials package.json",
 		"lintfix": "tslint --fix -p tsconfig.json -c tslint.json && eslint nodes credentials package.json --fix"
