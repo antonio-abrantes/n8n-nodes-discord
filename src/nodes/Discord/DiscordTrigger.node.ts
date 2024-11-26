@@ -151,7 +151,7 @@ export class DiscordTrigger implements INodeType {
     returnData.push({
       json: {
         content,
-        guild,
+        guild, // new field
         channelId,
         userId,
         userName,
